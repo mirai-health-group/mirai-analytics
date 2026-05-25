@@ -1,6 +1,6 @@
 # Mirai Analytics
 
-A healthcare data activation platform for mid-sized Kenyan private hospitals.
+A healthcare data activation platform for African Hospitals.
 
 Mirai Analytics ingests data from hospital management information systems and surfaces analytics, predictions, and clinical NLP-driven insights. The platform sits between existing hospital systems and the people who need to act on the data.
 
