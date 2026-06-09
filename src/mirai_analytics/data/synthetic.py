@@ -137,7 +137,7 @@ WARDS_INPATIENT = [
     "ICU",
     "HDU",
 ]
-WARDS_OUTPATIENT = ["OPD", "Casualty", "MCH Clinic", "CCC Clinic", "Diabetic Clinic"]
+WARDS_OUTPATIENT = ["OPD", "MCH Clinic", "CCC Clinic", "Diabetic Clinic"]
 
 CLINICIAN_IDS = [f"CL-{i:03d}" for i in range(1, 26)]
 
