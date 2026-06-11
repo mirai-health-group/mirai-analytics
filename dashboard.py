@@ -78,7 +78,16 @@ st.markdown(
 # ─────────────────────────────────────────────────────────
 @st.cache_data
 def get_data():
-    """Load all three datasets once and cache them."""
+    """Load all three datasets, generating them first if missing.
+
+    On a fresh deploy the gitignored CSVs don't exist, so we generate
+    them once from a fixed seed. Reproducible, and keeps generated data
+    out of the repo.
+    """
+    if not Path("data/raw/claims.csv").exists():
+        from mirai_analytics.data.synthetic import generate_dataset
+
+        generate_dataset(n_patients=1000, seed=42, output_dir="data/raw")
     return load_claims(), load_encounters(), load_patients()
 
 
