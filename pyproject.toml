@@ -7,7 +7,7 @@ name = "mirai-analytics"
 version = "0.1.0"
 description = "Healthcare data activation platform for African hospitals"
 readme = "README.md"
-requires-python = ">=3.11,<3.12"
+requires-python = ">=3.11"
 license = {text="Proprietary"}
 authors = [{ name = "Jeremy Ngugi", email = "jeremy.w.ngugi@gmail.com" }]
 keywords = ["healthcare", "analytics", "kenya", "hospital", "ml"]
