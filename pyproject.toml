@@ -15,6 +15,7 @@ keywords = ["healthcare", "analytics", "kenya", "hospital", "ml"]
 dependencies = [
     "pydantic>=2.6",
     "pandas>=2.2",
+    "openpyxl>3.1",
     "numpy>=1.26",
     "python-dateutil>=2.9",
     "streamlit>=1.38",

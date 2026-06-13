@@ -52,6 +52,7 @@ secrets/
 data/raw/
 data/processed/
 data/external/
+data/private/
 *.csv
 *.parquet
 *.feather
